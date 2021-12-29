@@ -48,7 +48,7 @@ Users should be able to:
 - [Styling placeholder](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder)
 - [Using multiple backgrounds](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds)
 - [Styling inner border](https://flaviocopes.com/css-border-inside-element/)
-- []()
+- [JavaScript: HTML Form - email validation](https://www.w3resource.com/javascript/form/email-validation.php)
 - []()
 - []()
 
