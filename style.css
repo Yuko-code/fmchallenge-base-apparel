@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+:root{
+    --primary-1:hsl(0, 36%, 70%);
+    --primary-2:hsl(0, 93%, 68%);
+    --neutral:hsl(0, 6%, 24%);
+}
+html{
+    font-size:16px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    color:var(--neutral);
+    min-height:100vh;
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%),hsl(0, 100%, 98%));
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    display:flex;
+    position:relative;
+}
+
+.logo{
+    background-image: url("images/logo.svg");
+    width:100px;
+    height:20.89px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:30px 0 30px 30px;
+}
+.home-main{
+display:grid;
+}
+
+.hero-image{
+    background-image: url("images/hero-mobile.jpg");
+    width:100%;
+    min-height:250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-text-area{
+    padding: 0px 30px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 0.677rem;
+    line-height: 1.05em;
+    font-weight: 600;
+}
+.title-header{
+    color:var(--primary-1);
+    font-weight: 300;
+}
+
+.text{
+    color:var(--primary-1);
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height:1.571em;
+}
+.email-form{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+    margin: 30px 0;
+}
+.email{
+    border-radius: 28px;
+    height:48px;
+    width:75%;
+    box-shadow: inset 0px 0px 0px 2px var(--primary-2);
+    border : 0;
+    background-color: hsla(0, 100%, 98%, 0);
+    padding-left:15px;
+    position:absolute;
+}
+.email::placeholder{
+     color:var(--primary-1);
+     opacity: 0.5;
+     font-size: 0.875rem;
+     line-height: 2em;
+}
+.submit-btn{
+    border:0;
+    border-radius: 28px;
+    height:48px;
+    width:64px;
+    background-image: url("images/icon-arrow.svg"), linear-gradient(135deg,hsl(0, 80%, 86%),hsl(0, 74%, 74%)) ;
+    background-repeat: no-repeat, no-repeat;
+    background-size:12px, contain;
+    background-position:center, center;
+    position:relative;
+    top:0px;
+    left:47%;
+}
+
+
+
+/*
+body
+.header  width="12" height="20"
+.logo
+.home-main
+.hero-image
+.hero-text-area
+.title
+.hero-title
+.title-header
+.hero-text
+.email-form
+.email
+.submit-btn
+footer
+*/
