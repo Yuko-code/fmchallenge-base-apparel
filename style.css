@@ -83,8 +83,8 @@ display:grid;
     border-radius: 28px;
     height:48px;
     width:75%;
-    box-shadow: inset 0px 0px 0px 2px var(--primary-2);
-    border : 0;
+    border:0;
+    box-shadow: inset 0px 0px 0px 1px var(--primary-1);
     background-color: hsla(0, 100%, 98%, 0);
     padding-left:15px;
     position:absolute;
@@ -107,6 +107,7 @@ display:grid;
     position:relative;
     top:0px;
     left:47%;
+    box-shadow: 0 15px 20px 0 rgba(198, 110, 110,24.76%);
 }
 
 
@@ -126,4 +127,8 @@ body
 .email
 .submit-btn
 footer
+
+box-shadow: inset 0px 0px 0px 2px var(--primary-2);
+
+
 */

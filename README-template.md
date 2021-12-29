@@ -47,7 +47,11 @@ Users should be able to:
 - [Styling form buttons](https://www.w3schools.com/css/tryit.asp?filename=trycss_form_button)
 - [Styling placeholder](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder)
 - [Using multiple backgrounds](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds)
+- [Styling inner border](https://flaviocopes.com/css-border-inside-element/)
 - []()
+- []()
+- []()
+
 
 
 ## Author
