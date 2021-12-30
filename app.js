@@ -8,17 +8,7 @@ form.addEventListener('submit', (e)=>{
 
 function checkInputs(){
     const emailValue=email.value.trim();
-    /*
-    if(emailValue ===''){
-        showError();
-    }
-    else if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailValue)){
-        showSuccess();
-    }else{
-       // showError();
-        console.log('nope')
-    }
-    */
+
     if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailValue)){
         showSuccess();
     }else if(emailValue ===''){
@@ -30,18 +20,7 @@ function checkInputs(){
 
 
 }
-/*
-function reset(){
-    const small=document.querySelector('small');
-    const errorIcon=document.querySelector('#error-icon');
-    const border=document.querySelector('#email');
-    small.classList.add('noShow');
-    small.innerText="";
-    small.style.color="";
-    errorIcon.classList.add('noShow');
-    border.classList.remove('error-border');
-}
-*/
+
 function showError(){
     const small=document.querySelector('small');
     const errorIcon=document.querySelector('#error-icon');
